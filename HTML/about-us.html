@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="../Images/img-DS.png" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/preloader.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../js/preloader.js"></script>
+  </head>
+  <style>
+    body {
+      overflow-x: hidden;
+      font-family: "Montserrat";
+    }
+
+    .mapouter {
+      position: relative;
+      text-align: right;
+      border-radius: 14px;
+    }
+    .gmap_canvas {
+      overflow: hidden;
+      background: none !important;
+      width: 100%;
+      border-radius: 14px;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    }
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: 0 10%;
+    }
+    .col {
+      width: 45%;
+      margin: 0 10px 0 10px;
+    }
+    h1 {
+      text-align: center;
+    }
+    #about-us,
+    h1 {
+      font-family: "Montserrat";
+    }
+    nav {
+      position: relative;
+      background: transparent;
+    }
+    p {
+      text-align: justify;
+    }
+    figure > img {
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+      border-radius: 7px;
+    }
+  </style>
+  <body>
+    <div class="se-pre-con"></div>
+    <nav>
+      <ul>
+        <li class="primary-nav">
+          <img src="../Images/img-DS.png" alt="logo" />
+          <a href="../index.html">DINGO SHOES</a>
+        </li>
+        <li class="secondary-nav">
+          <a href="../HTML/checkout.html">
+            <i class="fas fa-shopping-cart"></i> CART
+          </a>
+        </li>
+        <li class="secondary-nav"><a href="../HTML/women.html">WOMEN</a></li>
+        <li class="secondary-nav"><a href="../HTML/men.html">MEN</a></li>
+        <li class="secondary-nav">
+          <a href="../HTML/about-us.html">ABOUT US</a>
+        </li>
+      </ul>
+    </nav>
+    <h1>About Dingo Shoes</h1>
+    <div class="row">
+      <section class="mapouter col">
+        <div class="gmap_canvas">
+          <iframe
+            width="100%"
+            height="500vw"
+            id="gmap_canvas"
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114312.36273766933!2d80.25598078385089!3d26.447303775907695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c4770b127c46f%3A0x1778302a9fbe7b41!2sKanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1692558069806!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="about-us" class="col">
+        <p>
+          Dingo Shoes was started back in 2012 by
+          <strong>Ashani Singh Gurjar</strong>, The team started producing shoes only
+          in 2013. In addition to female and male, there is a children's line.
+          Shoes of non-dull styles and rich colors immediately catch the eye.
+        </p>
+        <p>
+          We are located in India. <br />Being an
+          official Nike partner, we sell their shoes at convenient prices. We
+          focus on team-designed collaborations that appeal to our global
+          community of global independents, creatives, and free-thinkers. We
+          create shoes to reflect the unbound lives we live and don't stop until
+          we get it right.
+        </p>
+        <h2>Mission</h2>
+        <p>
+          Our mission is what drives us to do everything possible to expand
+          human potential. We do that by creating groundbreaking sport
+          innovations, by making our products more sustainably, by building a
+          creative and diverse global team and by making a positive impact in
+          communities where we live and work. We strive to keep our work unique
+          and smart, with room for a little magic. You can find us in Nairobi,
+          CBD, and if the project is the right fit, we’d love to work with you.
+          Feel free to drop us a line, here.
+        </p>
+      </section>
+    </div>
+    <section>
+      <h1>Our Team</h1>
+      <div class="row">
+        <figure>
+          <img src="../Images/1.jpg" alt="" />
+          <figcaption>
+            <h3>John Matthews</h3>
+            <p>
+              C.E.O of Dingo Shoes ltd.
+            </p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="../Images/2.jpg" alt="" />
+          <figcaption>
+            <h3>Natalie Matthews</h3>
+            <p>Lead Salesman</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="../Images/3.jpg" alt="" />
+          <figcaption>
+            <h3>Jack Courage</h3>
+            <p>Lead Developer</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="../Images/4.jpg" alt="" />
+          <figcaption>
+            <h3>Matt Murdock</h3>
+            <p>Marketing Lead</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </body>
+</html>
